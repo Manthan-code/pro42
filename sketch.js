@@ -51,8 +51,8 @@ function draw(){
     thunder10.lifetime=30;
   }
 
-  if(frameCount % 150 === 0){
-      rain1.push(new Rain(random(15,795),(15,795)));
+  if(frameCount % 50 === 0){
+    rain1.push(new Rain(random(15,795),random(10,750)));
   }
 
   for(var i=0;i<rain1.length;i++){
